@@ -1,0 +1,278 @@
+.footer-2 {
+    background-color: #231f20;
+    color: #fff
+}
+
+.btn-primary-details {
+    align-content: center;
+    margin-left: 40%;
+    color: #df4c40;
+    padding: 10px;
+    background: #222
+}
+
+.navigation-clean-button {
+    background: #222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f2f5f8;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0
+}
+
+@media (max-width:767px) {
+    .footer-2 p {
+        text-align: center
+    }
+
+    .navigation-clean-button {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    .navigation-clean-button .navbar-header {
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+
+    .navigation-clean-button .navbar-right {
+        margin-bottom: 20px
+    }
+}
+
+.navigation-clean-button .navbar-brand {
+    font-weight: 700;
+    color: inherit
+}
+
+.navigation-clean-button .navbar-brand:hover {
+    color: #1485ee
+}
+
+.navigation-clean-button .navbar-brand img {
+    height: 100%;
+    display: inline-block;
+    margin-right: 10px;
+    width: auto
+}
+
+.navigation-clean-button .navbar-toggle {
+    border-color: #ddd
+}
+
+.navigation-clean-button .navbar-toggle:focus, .navigation-clean-button .navbar-toggle:hover {
+    background: 0 0
+}
+
+.navigation-clean-button .navbar-toggle .icon-bar {
+    background-color: #888
+}
+
+.navigation-clean-button .navbar-collapse, .navigation-clean-button .navbar-form {
+    border-top-color: #ddd
+}
+
+.navigation-clean-button .navbar-nav>.active>a, .navigation-clean-button .navbar-nav>.open>a {
+    background: 0 0;
+    box-shadow: none
+}
+
+.navigation-clean-button.navbar-default .navbar-nav>.active>a, .navigation-clean-button.navbar-default .navbar-nav>.active>a:focus, .navigation-clean-button.navbar-default .navbar-nav>.active>a:hover {
+    color: #e04c40;
+    border-top: 1px solid #e04c40;
+    box-shadow: none;
+    transition: background-color .25s;
+    background: 0 0;
+    pointer-events: none
+}
+
+.navigation-clean-button.navbar .navbar-nav>li>a {
+    padding-left: 18px;
+    padding-right: 18px
+}
+
+.navigation-clean-button.navbar-default .navbar-nav>li>a {
+    color: #dfe8ee;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Work Sans'
+}
+
+.navigation-clean-button.navbar-default .navbar-nav>li>a:focus, .navigation-clean-button.navbar-default .navbar-nav>li>a:hover {
+    color: #e04c40 !important;
+    border-top: 1px solid #e04c40;
+    background-color: transparent;
+    transition: background-color .25s, _ .25s
+}
+
+.navigation-clean-button .navbar-nav>li>.dropdown-menu {
+    margin-top: -5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    background-color: #222;
+    border-radius: 2px
+}
+
+.navigation-clean-button .dropdown-menu>li>a, .navigation-clean-button .dropdown-menu>li>a:focus {
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto;
+    color: #df4c40
+}
+
+.navigation-clean-button .dropdown-menu>li>a:focus, .navigation-clean-button .dropdown-menu>li>a:hover {
+    background: #df4c40;
+    color: inherit;
+    transition: background-color .25s cubic-bezier(.25, .1, .25, 1)
+}
+
+.navigation-clean-button .actions {
+    margin-top: 7px;
+    margin-bottom: 0
+}
+
+.navigation-clean-button .actions .login {
+    margin-right: 7px;
+    text-decoration: none;
+    color: #fff
+}
+
+.navigation-clean-button .action-button, .navigation-clean-button .action-button:active {
+    background: 0 0;
+    border-radius: 0;
+    color: #e04c40;
+    box-shadow: none;
+    border: 1px solid #e04c40;
+    text-shadow: none;
+    padding: 10px 22px;
+    transition: background-color .25s
+}
+
+.navigation-clean-button .action-button:hover {
+    background: #e04c40;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #df4c40
+}
+
+.navbar {
+    margin-bottom: 0
+}
+
+.btn {
+    border-radius: 0;
+    font-family: Roboto;
+    font-weight: 400
+}
+
+a.navbar-brand.navbar-link {
+    font-weight: 400
+}
+
+p.navbar-text.navbar-right.actions {
+    font-family: 'Roboto Slab';
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+a.navbar-link.login:hover {
+    color: #e04c40
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1485ee;
+    border: none
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #df4c40;
+    border: none
+}
+
+.proj-title {
+    margin: 30px;
+    padding: 10px;
+    height: auto
+}
+
+.intro {
+    margin-top: 20px
+}
+
+.intro-head {
+    text-align: center;
+    margin: 10px;
+    color: var(--bs-primary)
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+.dh-header-non-rectangular-container h1, p {
+    color: #fff;
+    font-weight: 700
+}
+
+body a {
+    outline: 0 !important
+}
+
+.highlight-blue {
+    color: #fff;
+    background-color: #1e6add;
+    padding: 50px 0
+}
+
+.highlight-blue p {
+    color: #c4d5ef;
+    line-height: 1.5
+}
+
+.highlight-blue h2 {
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    color: inherit
+}
+
+.highlight-blue .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 25px
+}
+
+.highlight-blue .buttons {
+    text-align: center
+}
+
+.highlight-blue .buttons .btn {
+    padding: 16px 32px;
+    margin: 6px;
+    border-radius: 3rem;
+    background: 0 0;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: .9;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .4px;
+    line-height: 1
+}
+
+.highlight-blue .buttons .btn:hover {
+    opacity: 1
+}
+
+.highlight-blue .buttons .btn:active {
+    transform: translateY(1px)
+}
